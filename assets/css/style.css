@@ -1,0 +1,392 @@
+.logo-interno {
+    display: flex;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.header {
+    background: #fff;
+    margin: 8px 0;
+    position: sticky;
+    top: -8px;
+    z-index: 1;
+}
+.header .menu-nav {
+    display: flex;
+}
+
+.header .menu-nav > li {
+    display: inline-block;
+    margin: 0 24px;
+    padding: 8px 0;
+}
+
+.header .menu-nav li {
+    position: relative;
+}
+
+.header .menu-nav > li:hover {
+    text-decoration: underline;
+}
+
+.header .sub-nav li:hover a {
+    background: var(--primary-color3);
+}
+
+.header .sub-nav {
+    position: absolute;
+    top: 44px;
+    left: -12px;
+    width: 200px;
+    display: none;
+}
+
+.header .menu-nav li:hover > .sub-nav {
+    display: block;
+}
+
+.header .sub-nav a {
+    display: block;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+}
+
+/* HERO */
+.homepage-hero {
+    position: relative;
+}
+
+.homepage-hero-img {
+    width: 100vw;
+    max-width: 100%;
+    height: calc(100vh - 78px);
+    object-fit: cover;
+    border-bottom-left-radius: 17%;
+}
+
+.homepage-hero-info {
+    width: 42%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 140px;
+}
+
+.homepage-hero-desc {
+    margin: 8px 0 20px;
+}
+
+/* WORK */
+.homepage-work {
+    margin-top: 200px;
+}
+
+.homepage-work-content {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.homepage-work-desc {
+    margin-top: 20px;
+}
+
+.homepage-work-btn {
+    background-color: #fff;
+}
+
+/* ABOUT */
+.homepage-about {
+    margin-top: 200px;
+}
+
+.homepage-about-content {
+    padding-right: 75px;
+}
+
+.homepage-about-img {
+    width: 55%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+.homepage-about-desc {
+    margin-top: 34px;
+}
+
+.homepage-about-call {
+    margin: 46px 0;
+    display: flex;
+    align-items: center;
+}
+
+.fa-phone {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--primary-color3);
+}
+
+.homepage-about-info-call {
+    margin-left: 16px;
+}
+
+.homepage-about-numphone {
+    color: #4d5053;
+    font-size: 2.4rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+}
+
+/* TESTIMONIAL */
+.homepage-testimonial {
+    margin-top: 200px;
+}
+
+.homepage-testimonial-content {
+    background-color: var(--primary-color3);
+    border-radius: 10%;
+    padding: 88px 25px;
+}
+
+.homepage-testimonial-content h2 {
+    text-align: center;
+    margin: 0 300px;
+}
+
+.homepage-testimonials-box {
+    width: 33%;
+    background: #fff;
+    border-radius: 10%;
+    margin: 38px 20px 0 0;
+    padding: 55px 37px;
+}
+
+.homepage-testimonials-box:last-child {
+    margin-right: 0;
+}
+
+.homepage-testimonials-desc {
+    margin-top: 25px;
+}
+
+.homepage-ava {
+    border-radius: 50%;
+}
+
+/* BRAND */
+.homepage-brand {
+    margin-top: 200px;
+}
+
+/* PROJECTS */
+.homepage-projects {
+    margin-top: 200px;
+}
+
+.homepage-projects h2 {
+    text-align: center;
+}
+
+.homepage-projects p {
+    margin: 10px 200px 93px;
+    text-align: center;
+}
+
+.homepage-projects-img {
+    border-top-right-radius: 10%;
+}
+
+.homepage-projects-info {
+    margin-top: 24px;
+}
+
+.fa-chevron-right {
+    margin-top: 24px;
+    width: 70px;
+    height: 70px;
+    font-size: 22px;
+    padding: 24px 28px;
+    border-radius: 50%;
+    background: var(--primary-color3);
+}
+
+.homepage-projects-row {
+    margin-top: 56px;
+}
+
+/* COUNTER */
+.homepage-counter {
+    margin-top: 200px;
+    background: var(--primary-color3);
+    text-align: center;
+    padding: 151px 0;
+}
+
+.homepage-counter-row {
+    margin: 0 59px;
+}
+
+.homepage-counter h1 {
+    color: var(--primary-color1);
+    margin-bottom: 16px;
+}
+
+.homepage-counter-info:not(:last-child) {
+    position: relative;
+}
+
+.homepage-counter-info::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--primary-color1);
+    width: 1px;
+    height: 130px;
+    right: -76px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* BLOG */
+.homepage-blog {
+    margin-top: 200px;
+}
+
+.homepage-blog h2,
+.homepage-blog p {
+    text-align: center;
+    margin: 0 190px;
+}
+
+.homepage-blog p {
+    margin-top: 8px;
+    margin-bottom: 52px;
+}
+
+.homepage-blog-box {
+    width: 32%;
+    border-radius: 62px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+    padding: 21px;
+}
+
+.homepage-blog-box:hover {
+    background: var(--primary-color3);
+    cursor: pointer;
+}
+.homepage-blog-box:hover .arrow-right {
+    background: #fff;
+}
+
+.homepage-blog-img {
+    margin-bottom: 8px;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+}
+
+.homepage-blog-date {
+    margin-top: 40px;
+}
+
+.arrow-right {
+    width: 52px;
+    height: 52px;
+    font-size: 20px;
+    padding: 16px 20px;
+}
+
+/* CONTACT */
+.homepage-contact {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.homepage-contact-content {
+    padding: 80px 315px;
+    border-radius: 70px;
+    background: var(--primary-color2);
+}
+.homepage-contact h2,
+.homepage-contact p {
+    color: #fff;
+}
+
+.homepage-contact p {
+    margin-top: 11px;
+    margin-bottom: 32px;
+}
+
+.btn-color-noshadow {
+    box-shadow: none;
+}
+
+.arrow-right-grey {
+    color: var(--primary-color2);
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 200px;
+}
+.footer .row .large-p {
+    margin-top: 7px;
+    margin-bottom: 31px;
+}
+
+.footer .row .footer-icon .footer-social-link {
+    margin-right: 54px;
+}
+
+.footer .row .footer-icon .footer-social-link:hover {
+    cursor: pointer;
+    background-color: #ebebebee;
+}
+
+.footer .row .footer-icon .footer-social-link:last-child {
+    padding-right: 0;
+}
+
+.footer .row .footer-column-heading {
+    width: 393px;
+    max-width: 100%;
+    height: 188px;
+}
+
+.footer .row .footer-column-contact {
+    width: 258px;
+    max-width: 100%;
+    height: 272px;
+}
+
+.footer .row .footer-column .footer-item a {
+    color: #4d5053;
+    font-size: 2.2rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%;
+    letter-spacing: 0.22px;
+}
+
+.footer .row .footer-column .footer-item-contact a {
+    color: #4d5053;
+    font-size: 2.2rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 250%;
+    letter-spacing: 0.22px;
+}
+
+.footer-row .copyright {
+    text-align: center;
+    margin: 144px auto 43px;
+}

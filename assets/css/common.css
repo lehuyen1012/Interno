@@ -11,6 +11,16 @@ body {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary-color2);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
 .content {
     width: 1200px;
     max-width: calc(100% - 48px);
@@ -24,13 +34,21 @@ body {
     --primary-color3: #f4f0ec;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-center {
+    align-items: center;
+}
+
 .btn-default,
 .btn-large,
 .btn-color {
-    margin-top: 10px;
     display: inline-block;
     padding: 26px 54px;
-    border-radius: 13px;
+    border-radius: 18px;
     background: var(--primary-color2);
     box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
     color: #fff;
@@ -54,6 +72,23 @@ body {
 .btn-color {
     min-width: 87px;
     background: var(--primary-color1);
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
+    color: var(--primary-color1);
+}
+
+.read-more {
+    margin-top: 52px;
+    color: #4d5053;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.36px;
 }
 
 .large-p {
@@ -111,4 +146,23 @@ h3 {
 
 h4 {
     font-size: 2.5rem;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner-img {
+    width: 100vw;
+}
+
+.banner-box {
+    position: absolute;
+    bottom: 0;
+    padding: 24px 100px;
+    border-radius: 37px 37px 0px 0px;
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
 }
