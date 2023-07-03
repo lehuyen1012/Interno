@@ -61,6 +61,12 @@ ol {
     letter-spacing: 0.36px;
 }
 
+.btn-default:hover,
+.btn-large:hover,
+.btn-color:hover {
+    cursor: pointer;
+}
+
 .btn-default {
     min-width: 109px;
 }
@@ -155,12 +161,14 @@ h4 {
 
 .banner-img {
     width: 100vw;
+    height: 30vh;
+    object-fit: cover;
 }
 
 .banner-box {
     position: absolute;
     bottom: 0;
-    padding: 24px 100px;
+    padding: 20px 100px;
     border-radius: 37px 37px 0px 0px;
     background: #fff;
     left: 50%;
