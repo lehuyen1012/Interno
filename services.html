@@ -87,7 +87,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:wght@400;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:wght@400;500;600;700&display=swap"
             rel="stylesheet"
         />
 
@@ -107,28 +107,48 @@
         <header class="header">
             <div class="content">
                 <div class="row row-center">
-                    <div class="logo-interno">
+                    <a href="#" class="logo-interno">
                         <img src="./assets/img/logo.svg" alt="" class="logo" />
                         <h2>Interno</h2>
-                    </div>
+                    </a>
                     <div class="navigation">
                         <ul class="menu-nav medium-p">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="">About Us</a></li>
+                            <li>
+                                <a href="">About</a>
+                                <ul class="sub-nav">
+                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li>
+                                        <a href="pricing.html"
+                                            >Pricing & Plan</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
                             <li><a href="services.html">Services</a></li>
-                            <li><a href="">Project</a></li>
+                            <li><a href="project.html">Project</a></li>
                             <li>
                                 <a href="">Blog</a>
                                 <ul class="sub-nav">
-                                    <li><a href="">Articles & News</a></li>
-                                    <li><a href="">Our Professional</a></li>
+                                    <li>
+                                        <a href="blognews.html"
+                                            >Articles & News</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="professional.html"
+                                            >Our Professional</a
+                                        >
+                                    </li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="">Contact</a>
                                 <ul class="sub-nav">
-                                    <li><a href="">Contact Us</a></li>
-                                    <li><a href="">Faq’s</a></li>
+                                    <li>
+                                        <a href="contact.html">Contact Us</a>
+                                    </li>
+                                    <li><a href="FAQ's.html">Faq’s</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -166,10 +186,10 @@
                                 There are many variations of the passages of
                                 lorem Ipsum from available, majority.
                             </p>
-                            <div class="read-more">
+                            <a href="#how-we-work" class="read-more">
                                 Read More
                                 <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                         <div class="services-box">
                             <h4 class="services-name">Interior Work</h4>
@@ -177,10 +197,10 @@
                                 There are many variations of the passages of
                                 lorem Ipsum from available, majority.
                             </p>
-                            <div class="read-more">
+                            <a href="#how-we-work" class="read-more">
                                 Read More
                                 <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                         <div class="services-box">
                             <h4 class="services-name">Retail Design</h4>
@@ -188,10 +208,10 @@
                                 There are many variations of the passages of
                                 lorem Ipsum from available, majority.
                             </p>
-                            <div class="read-more">
+                            <a href="#how-we-work" class="read-more">
                                 Read More
                                 <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="row">
@@ -201,10 +221,10 @@
                                 There are many variations of the passages of
                                 lorem Ipsum from available, majority.
                             </p>
-                            <div class="read-more">
+                            <a href="#how-we-work" class="read-more">
                                 Read More
                                 <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                         <div class="services-box">
                             <h4 class="services-name">Realization</h4>
@@ -212,10 +232,10 @@
                                 There are many variations of the passages of
                                 lorem Ipsum from available, majority.
                             </p>
-                            <div class="read-more">
+                            <a href="#how-we-work" class="read-more">
                                 Read More
                                 <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                         <div class="services-box">
                             <h4 class="services-name">Decoration Work</h4>
@@ -223,16 +243,16 @@
                                 There are many variations of the passages of
                                 lorem Ipsum from available, majority.
                             </p>
-                            <div class="read-more">
+                            <a href="#how-we-work" class="read-more">
                                 Read More
                                 <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="services-work">
+            <div id="how-we-work" class="services-work">
                 <div class="content services-work-content">
                     <h2>How We Work</h2>
                     <p class="large-p">
@@ -349,13 +369,17 @@
                     <p class="large-p">
                         It is a long established fact will be distracted.
                     </p>
-                    <div class="btn-color" style="box-shadow: none">
+                    <a
+                        href="contact.html"
+                        class="btn-color"
+                        style="box-shadow: none"
+                    >
                         Contact With Us
                         <i
                             class="fa-solid fa-arrow-right"
                             style="color: var(--primary-color2)"
                         ></i>
-                    </div>
+                    </a>
                 </div>
             </div>
         </main>
